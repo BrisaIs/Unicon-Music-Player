@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Apr 23, 2016, 10:39:01 PM
+    Author     : brisa
+*/
+
+
+/*Identificador de clase, para modificar el fondo de la scene principal*/
+.root{-fx-background-image: url("images/1.jpg");}
+
+/*Texto de las opciones de la toolbar*/
+.split-menu-button .label
+{
+  -fx-text-fill:  #d503e8;
+  -fx-font-weight: bold;
+  -fx-font-family: "Comic Sans Ms";
+
+}
+
+/*Opciones para la creación de las playlist's*/
+.combo-box
+{
+  -fx-text-fill:  #d503e8;
+  -fx-font-weight: normal;
+}
+
+/*ToolBar*/
+#toolB{-fx-background-image: url("images/1.jpg");}
+
+/*Pestañas del tabPane*/
+.tab-pane .tab-header-area .headers-region .tab .tab-container .tab-label
+{
+  -fx-font-weight: bold;
+  -fx-text-fill: #d503e8;
+  -fx-text-size: 11pt;
+}
+
+
+/*Panel de playlist*/
+#playlistP
+{
+  -fx-background-image: url("images/1.jpg");
+  -fx-font-family: "Comic Sans Ms";
+}
+
+/*Panel de library*/
+#libraryP
+{
+  -fx-background-image: url("images/1.jpg");
+  -fx-text-fill: #b335ba;
+  -fx-font-family: "Comic Sans Ms";
+}
+
+/*Panel para crear playlist*/
+#createP
+{
+  -fx-background-image: url("images/1.jpg");
+  -fx-font-weight: bold;
+  -fx-text-fill: #d503e8;
+  -fx-font-family: "Comic Sans Ms";
+}
+
+/*Vista de list views*/
+#LV{-fx-background-image: url("images/1.jpg");}
+
+/*Panel para vista de las playlist creadas*/
+#viewP
+{
+  -fx-background-image: url("images/1.jpg");
+  -fx-font-weight: bold;
+  -fx-text-fill: #d503e8;
+  -fx-font-family: "Comic Sans Ms";
+}
+
+/*Boton para info del reproductor*/
+.tool-bar .button
+{
+  -fx-font-weight: bold;
+  -fx-text-fill: #d503e8;
+  -fx-font-family: "Comic Sans Ms";
+}
+
+/*Formato para titulo de la cancion*/
+#title .label
+{
+  -fx-font-family: "Comic Sans Ms";
+  -fx-font-weight: bold;
+  -fx-font-ize: 15pt;
+}
+
+/*Formato para el artista de la cancion*/
+#artist .label
+{
+  -fx-font-family: "Comic Sans Ms";
+  -fx-font-weight: italic;
+  -fx-font-ize: 12pt;
+}
+
+/*Formato para el album de la cancion*/
+#album .label
+{
+  -fx-font-family: "Comic Sans Ms";
+  -fx-font-weight: normal;
+  -fx-font-ize: 12pt;
+}
+
+
+.slider .thumb {
+    -fx-background-color:
+        linear-gradient(to bottom, derive(-fx-text-box-border, -20%), derive(-fx-text-box-border, -30%)),
+        -fx-inner-border,
+        -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 1.0em; /* makes sure this remains circular */
+    -fx-padding: 0.583333em;  /* 7 */
+    /*-fx-effect: dropshadow(two-pass-box , rgba(0, 0, 0, 0.1), 5, 0.0 , 0, 2);*/
+}
+
+/*Reproduce Styles*/
+/*Botón de cancion anterior*/
+#prev
+{-fx-background-image: url("images/prev.jpg");}
+
+/*Botón para reproducir canción en curso*/
+#play
+{-fx-background-image: url("images/play.jpg");}
+
+/*Botón de cancion siguiente*/
+#next
+{-fx-background-image: url("images/next.jpg");}
+
+#caratula/*img de carátua*/
+#pause/*Botón para detener momentaneamente la lista de reproduccion actual*/
+#stop/*Botón para detener completamente la lista de reproducción actual */
+#repeat/**/
+#aleatory/**/
