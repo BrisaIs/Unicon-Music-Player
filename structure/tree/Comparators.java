@@ -38,4 +38,14 @@ public class Comparators {
 		}
 		
 	};
+	
+	public static Comparator<Song> byDuration = new Comparator<Song>(){
+		@Override
+		public int compare(Song a, Song b) {
+			if(a.getDuration() == b.getDuration())
+				return a.getId() > b.getId() ? 1 : -1;
+			else
+				return a.getDuration() > b.getDuration() ? 1 : -1; 
+		}
+	};
 }

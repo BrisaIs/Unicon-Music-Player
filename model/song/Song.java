@@ -104,7 +104,9 @@ public class Song{
 	}
 	
 	public String toString(){
-		String song = String.format("%s-%10.3f min", title+" Album:"+album, duration);
+		String song = String.format("%25s %25s %15s %15.3f",
+				title,artist,album,duration
+				);
 		return song;
 	}
 	

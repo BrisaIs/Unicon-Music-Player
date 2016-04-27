@@ -6,7 +6,7 @@ import model.song.Song;
 import structure.tree.Node;
 
 public class AVL implements Tree<Song>{
-	private Node root;
+	Node root;
 	private Comparator<Song> comparator;
 	
 	public AVL(Comparator<Song> c){
